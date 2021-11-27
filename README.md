@@ -6,11 +6,11 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 - Desktop
 
-![](ss\TipCal_ss_desktop.png)
+![](ss/TipCal_ss_desktop.png)
 
 - Mobile
 
-![](ss\TipCal_ss_mobile.png)
+![](ss/TipCal_ss_mobile.png)
 
 ### Links
 

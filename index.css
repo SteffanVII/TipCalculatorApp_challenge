@@ -116,6 +116,7 @@ main
 
     border-radius: 24px;
     background-color: white;
+    box-shadow: 0 20px 30px 10px hsla(171, 22%, 48%, 0.185);
 }
 
 .results_card

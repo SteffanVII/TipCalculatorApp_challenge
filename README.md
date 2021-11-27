@@ -15,7 +15,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Live Site URL: [Live](https://steffanvii.github.io/TipCalculatorApp_challenge/)
 
 ### Built with
 

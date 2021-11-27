@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="splitter_logo" class="logo">
+  </header>
+  <main>
+
+    <form class="dashboard" name="dashboard">
+
+      <div class="inputs_card">
+
+        <div class="bill_wrapper">
+
+          <h2>Bill</h2>
+          <div class="input_wrapper" id="bill_iw"><input type="number" name="bill" id="bill" placeholder="0" min="0"></div>
+
+        </div>
+
+        <div class="tip_wrapper">
+
+          <h2 class="tip">Select Tip %</h2>
+
+          <div class="percent_buttons">
+            <input type="radio" name="tip_percent" id="5" value="0.05">
+            <label for="5"><span>5%</span></label>
+            <input type="radio" name="tip_percent" id="10" value="0.1">
+            <label for="10"><span>10</span>%</label>
+            <input type="radio" name="tip_percent" id="15" value="0.15">
+            <label for="15"><span>15%</span></label>
+            <input type="radio" name="tip_percent" id="25" value="0.25">
+            <label for="25"><span>25%</span></label>
+            <input type="radio" name="tip_percent" id="50" value="0.5">
+            <label for="50"><span>50%</span></label>
+            <input type="number" name="custom" id="custom" placeholder="Custom">
+          </div>
+
+        </div>
+
+        <div class="people_wrapper">
+          <h2 class="people">Number of People</h2>
+          <div class="input_wrapper" id="people_iw"><input type="number" name="people_count" id="people_count" placeholder="0" min="1"></div>
+        </div>
+
+      </div>
+
+      <div class="results_card">
+
+          <div class="result_wrapper">
+            <h2>Tip Amount<br> <span>/ person</span></h2>
+            <textarea name="tip_result" readonly placeholder="$0.00"></textarea>
+          </div>
+
+          <div class="result_wrapper">
+            <h2>Total<br> <span>/ person</span></h2>
+            <textarea name="total_result" readonly placeholder="$0.00"></textarea>
+          </div>
+
+          <button type="reset"><span>Reset</span></button>
+
+      </div>
+
+    </form>
+
+  </main>
+  <div class="attribution">
+    <span></span>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/SteffanVII">Chris Jay</a>.
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
